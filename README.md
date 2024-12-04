@@ -27,5 +27,14 @@ npm i --save-dev sass
 ## github
 ```
 git init
+```
 
+adicionar todos ficheiros 
+```
+git add .
+```
+
+```
+git config --global user.name "Afonso-14402"
+git config --global user.email "afonsomanuelcoelhopacheco@gmail.com"
 ```
