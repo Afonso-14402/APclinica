@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class UserDoctorAgenda extends Model
 {
     use HasFactory;
-
+    protected $table = 'user_doctor_agenda'; 
     protected $fillable = [
         'doctor_id',
         'day_of_week',

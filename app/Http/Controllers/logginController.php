@@ -22,7 +22,7 @@ class logginController extends Controller
             return back()->withInput() ->with('erro','Email ou Senha inválida');
         }
 
-        return redirect()->route('user.index');
+        return redirect()->route('index');
     }
 
     public function destroy(){
